@@ -7,4 +7,19 @@ class Row {
         this.values = values;
     }
 
+    public List<String> getValues() {
+        return values;
+    }
+
+    public String getValue(int index) {
+        return values.get(index);
+    }
+
+    public void setValue(int index, String value) {
+        values.set(index, value);
+    }
+
+    public void addValue(String value) {
+        values.add(value);
+    }
 }

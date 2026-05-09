@@ -11,4 +11,8 @@ public class Table {
         this.columns = new ArrayList<>();
         this.rows = new ArrayList<>();
     }
+
+    public List<Row> getRows() {
+        return rows;
+    }
 }
